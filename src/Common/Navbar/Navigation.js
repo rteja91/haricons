@@ -28,10 +28,10 @@ class Navigation extends React.Component {
                                     <div className="d-none d-md-inline ">SERVICES</div>
                                 </DropdownToggle>
                                 <DropdownMenu className="dropdown-default" right>
-                                    <DropdownItem href="/services" className={cls.navigationColor} >Water</DropdownItem>
-                                    <DropdownItem href="/services" className={cls.navigationColor} >Transportation</DropdownItem>
-                                    <DropdownItem href="/services" className={cls.navigationColor} >Power Transmission</DropdownItem>
-                                    <DropdownItem href="/services" className={cls.navigationColor} >Building Works</DropdownItem>
+                                    <DropdownItem className={cls.navigationColor} ><NavLink to="/services" className={cls.navigationColor} >WATER</NavLink></DropdownItem>
+                                    <DropdownItem className={cls.navigationColor} ><NavLink to="/services" className={cls.navigationColor} >TRANSPORT</NavLink></DropdownItem>
+                                    <DropdownItem className={cls.navigationColor} ><NavLink to="/services" className={cls.navigationColor} >POWER</NavLink></DropdownItem>
+                                    <DropdownItem className={cls.navigationColor} ><NavLink to="/services" className={cls.navigationColor} >BUILDING</NavLink></DropdownItem>
                                 </DropdownMenu>
                             </Dropdown>
                         </NavItem>
