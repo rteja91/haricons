@@ -7,7 +7,7 @@ const FooterPage = props => {
             <Container fluid className="grey lighten-5 text-center text-md-left">
                 <Row>
                     <Col md="3">
-                        <h5 className="title text-dark text-uppercase font-weight-bold">Head Office</h5>
+                        <h5 className="title text-dark text-uppercase font-weight-bold mt-3 pt-2">Head Office</h5>
                         <hr className="teal orange-3 mb-4 mt-0 d-inline-block mx-auto" style={{ "width": "60px" }} />
                         <address className="footer-color">
                             59F, Shakti Colony, <br />
@@ -19,7 +19,7 @@ const FooterPage = props => {
                     <Col md="3">
 
 
-                        <h5 className="title text-dark text-uppercase font-weight-bold">Branch Office</h5>
+                        <h5 className="title text-dark text-uppercase font-weight-bold mt-3 pt-2">Branch Office</h5>
                         <hr className="teal orange-3 mb-4 mt-0 d-inline-block mx-auto" style={{ "width": "60px" }} />
                         <address className="footer-color">
                             New 25/10/311, <br />
@@ -33,11 +33,11 @@ const FooterPage = props => {
                     <Col md="3">
 
 
-                        <h5 className="title text-dark text-uppercase font-weight-bold">Quick links</h5>
+                        <h5 className="title text-dark text-uppercase font-weight-bold mt-3 pt-2">Quick links</h5>
                         <hr className="teal orange-3 mb-4 mt-0 d-inline-block mx-auto" style={{ "width": "60px" }} />
                         <ul >
                             <li className="list-unstyled">
-                                <a href="#!" className="footer-color text-uppercase font-weight-bold">About us</a>
+                                <a href="/about" className="footer-color text-uppercase font-weight-bold">About us</a>
                             </li>
                             <li className="list-unstyled">
                                 <a href="#!" className="footer-color text-uppercase font-weight-bold">Our Quality</a>
@@ -56,7 +56,7 @@ const FooterPage = props => {
                     <Col md="3">
 
 
-                        <h5 className="title text-dark text-uppercase font-weight-bold">Contact us</h5>
+                        <h5 className="title text-dark text-uppercase font-weight-bold pt-2 mt-3">Contact us</h5>
                         <hr className="teal orange-3 mb-4 mt-0 d-inline-block mx-auto" style={{ "width": "60px" }} />
                         <div className="footer-color">
                             <MDBIcon icon="home" className="mr-3"></MDBIcon>+91-0123456789<br />
