@@ -14,14 +14,14 @@ class Navigation extends React.Component {
 
     render() {
         return (
-            <MDBNavbar color="white" light expand="md" style={{ marginTop: "0px" }}>
+            <MDBNavbar color="white" light expand="md" style={{ marginTop: "0px", backgroundColor: "#f2f2f2 !important" }}>
                 <MDBNavbarBrand href="#">
                     <img src={logo} height="50" alt="" />
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={this.toggleCollapse} />
                 <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
                     <MDBNavbarNav right>
-                        <MDBNavItem active>
+                        <MDBNavItem >
                             <MDBNavLink to="/" className={cls.navigationColor}>HOME</MDBNavLink>
                         </MDBNavItem>
                         {/* <MDBNavItem>

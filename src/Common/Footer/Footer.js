@@ -40,10 +40,10 @@ const FooterPage = props => {
                                 <a href="/about" className="footer-color text-uppercase font-weight-bold">About us</a>
                             </li>
                             <li className="list-unstyled">
-                                <a href="#!" className="footer-color text-uppercase font-weight-bold">Our Quality</a>
+                                <a href="/expertise" className="footer-color text-uppercase font-weight-bold">Our Quality</a>
                             </li>
                             <li className="list-unstyled">
-                                <a href="#!" className="footer-color text-uppercase font-weight-bold">Our Expertise</a>
+                                <a href="/expertise" className="footer-color text-uppercase font-weight-bold">Our Expertise</a>
                             </li>
                             <li className="list-unstyled">
                                 <a href="#!" className="footer-color text-uppercase font-weight-bold">Careers</a>

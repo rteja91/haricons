@@ -5,6 +5,7 @@ import Services from './Pages/Services/Services';
 import Machinery from './Pages/Machinery/Machinery.js';
 import About from './Pages/About/About.js';
 import Contact from './Pages/Contact/Contact.js';
+import Expertise from './Pages/About/Expertise';
 
 
 
@@ -20,6 +21,7 @@ class App extends Component {
             <Route path="/machinery" component={Machinery} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
+            <Route path="/expertise" component={Expertise} />
             {/* <Route path="/hello" component={Hello} />
             <Route path="/hello/goodmorning" render={() => { return <h1>Goodmorning</h1> }} />
             <Route path="/books" component={Books} /> */}
