@@ -1,10 +1,10 @@
 {
   "main.css": "/static/css/main.d5129c2c.chunk.css",
-  "main.js": "/static/js/main.f364e27a.chunk.js",
-  "main.js.map": "/static/js/main.f364e27a.chunk.js.map",
+  "main.js": "/static/js/main.13fba543.chunk.js",
+  "main.js.map": "/static/js/main.13fba543.chunk.js.map",
   "static/css/1.cb3c5b22.chunk.css": "/static/css/1.cb3c5b22.chunk.css",
-  "static/js/1.8fdb62fe.chunk.js": "/static/js/1.8fdb62fe.chunk.js",
-  "static/js/1.8fdb62fe.chunk.js.map": "/static/js/1.8fdb62fe.chunk.js.map",
+  "static/js/1.673e7678.chunk.js": "/static/js/1.673e7678.chunk.js",
+  "static/js/1.673e7678.chunk.js.map": "/static/js/1.673e7678.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/mdb.css": "/static/media/Roboto-Bold.dc81817d.woff",
@@ -16,11 +16,11 @@
   "static/media/tipper.jpg": "/static/media/tipper.5f954c0d.jpg",
   "static/media/vibrator2.jpg": "/static/media/vibrator2.7ca531ec.jpg",
   "static/media/concrete.jpg": "/static/media/concrete.5e99176a.jpg",
-  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.674f50d2.eot",
+  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/1.jpg": "/static/media/1.f54b4ce1.jpg",
   "static/css/main.d5129c2c.chunk.css.map": "/static/css/main.d5129c2c.chunk.css.map",
   "static/css/1.cb3c5b22.chunk.css.map": "/static/css/1.cb3c5b22.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.0606cbb7e5da47a7d9a5a8a7e95a3f70.js": "/precache-manifest.0606cbb7e5da47a7d9a5a8a7e95a3f70.js",
+  "precache-manifest.0a680f54f4504c91e75ade0a6bbe5e0e.js": "/precache-manifest.0a680f54f4504c91e75ade0a6bbe5e0e.js",
   "service-worker.js": "/service-worker.js"
 }
