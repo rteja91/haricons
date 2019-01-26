@@ -74,14 +74,6 @@ const ContactForm = () => {
                             frameBorder="0"
                             style={{ border: 0 }}
                         />
-                        {/* <iframe
-                            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJGcczqUbXuDsR_KVstTMGXcg&key=AIzaSyDTL6n0wwXGh8bAXa2NTLfYCHtLsBKNAcQ"
-                            title="Haricons Constructions"
-                            width="100%"
-                            height="100%"
-                            frameBorder="0"
-                            style={{ border: 0 }}
-                        /> */}
                     </div>
                     <br />
                     <MDBRow className="text-center">
