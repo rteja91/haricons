@@ -6,21 +6,20 @@ import Machinery from './Pages/Machinery/Machinery.js';
 import About from './Pages/About/About.js';
 import Contact from './Pages/Contact/Contact.js';
 import Expertise from './Pages/About/Expertise';
-import createHashHistory from 'history/createHashHistory';
 import NotFound from './Pages/NotFound';
 
 
 
 class App extends Component {
   render() {
-    const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
+
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router >
         <div className="App">
           <Switch>
-            <Route exact path={'/'} component={Home} />
-            <Route path={'/home'} component={Home} />
-            <Route path={'/services'} component={Services} />
+            <Route exact path="/" component={Home} />
+            <Route path="/home" component={Home} />
+            <Route path="/services" component={Services} />
             <Route path="/machinery" component={Machinery} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
