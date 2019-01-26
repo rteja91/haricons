@@ -15,11 +15,11 @@ class App extends Component {
   render() {
     const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
     return (
-      <Router history={hashHistory}>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/home" component={Home} />
+            <Route exact path={`/`} component={Home} />
+            <Route path={`/home`} component={Home} />
             <Route path="/services" component={Services} />
             <Route path="/machinery" component={Machinery} />
             <Route path="/about" component={About} />
