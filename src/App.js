@@ -12,7 +12,7 @@ import Expertise from './Pages/About/Expertise';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Switch>
             <Route exact path="/" component={Home} />
