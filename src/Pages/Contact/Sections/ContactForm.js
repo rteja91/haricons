@@ -65,7 +65,7 @@ const ContactForm = () => {
                 <MDBCol lg="7">
                     <div id="map-container"
                         className="rounded z-depth-1-half map-container"
-                        style={{ height: "400px" }} >
+                        style={{ height: "500px" }} >
                         <iframe
                             src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJGcczqUbXuDsR_KVstTMGXcg&key=AIzaSyCHCuE3eTdbRPRyC9uH_FkQMg1H8z-hkmk"
                             title="Haricons Constructions"
@@ -75,30 +75,32 @@ const ContactForm = () => {
                             style={{ border: 0 }}
                         />
                     </div>
-                    <br />
-                    <MDBRow className="text-center">
-                        <MDBCol md="4">
-                            <MDBBtn tag="a" floating color="orange" className="accent-1">
-                                <MDBIcon icon="map-marker" />
-                            </MDBBtn>
-                            <p>New York, 94126</p>
-                            <p className="mb-md-0">United States</p>
-                        </MDBCol>
-                        <MDBCol md="4">
-                            <MDBBtn tag="a" floating color="orange" className="accent-1">
-                                <MDBIcon icon="phone" />
-                            </MDBBtn>
-                            <p>+ 01 234 567 89</p>
-                            <p className="mb-md-0">Mon - Fri, 8:00-22:00</p>
-                        </MDBCol>
-                        <MDBCol md="4">
-                            <MDBBtn tag="a" floating color="orange" className="accent-1">
-                                <MDBIcon icon="envelope" />
-                            </MDBBtn>
-                            <p>info@gmail.com</p>
-                            <p className="mb-md-0">sale@gmail.com</p>
-                        </MDBCol>
-                    </MDBRow>
+
+                </MDBCol>
+            </MDBRow>
+            <MDBRow className="text-center">
+                <MDBCol md="4">
+                    <MDBBtn tag="a" floating color="orange" className="accent-1">
+                        <MDBIcon icon="map-marker" />
+                    </MDBBtn>
+                    <p>Shop No 01,3rd Floor,</p>
+                    <p>'D' Block,Shindhe Complex,</p>
+                    <p>Neeligin Road,NCM HUBLI.</p>
+                    <p className="mb-md-0">India - 580029</p>
+                </MDBCol>
+                <MDBCol md="4">
+                    <MDBBtn tag="a" floating color="orange" className="accent-1">
+                        <MDBIcon icon="phone" />
+                    </MDBBtn>
+                    <p>+ 91-836-2258225</p>
+                    <p className="mb-md-0">Mon - Fri, 8:00-22:00</p>
+                </MDBCol>
+                <MDBCol md="4">
+                    <MDBBtn tag="a" floating color="orange" className="accent-1">
+                        <MDBIcon icon="envelope" />
+                    </MDBBtn>
+                    <p>info@haricons.in</p>
+                    <p className="mb-md-0">contactus@haricons.in</p>
                 </MDBCol>
             </MDBRow>
         </section>
