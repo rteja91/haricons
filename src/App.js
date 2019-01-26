@@ -18,9 +18,9 @@ class App extends Component {
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Switch>
-            <Route exact path={`/`} component={Home} />
-            <Route path={`/home`} component={Home} />
-            <Route path="/services" component={Services} />
+            <Route exact path={'/'} component={Home} />
+            <Route path={'/home'} component={Home} />
+            <Route path={'/services'} component={Services} />
             <Route path="/machinery" component={Machinery} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
