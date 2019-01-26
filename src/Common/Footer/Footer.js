@@ -59,7 +59,7 @@ const FooterPage = props => {
                         <h5 className="title text-dark text-uppercase font-weight-bold pt-2 mt-3">Contact us</h5>
                         <hr className="teal orange-3 mb-4 mt-0 d-inline-block mx-auto" style={{ "width": "60px" }} />
                         <div className="footer-color">
-                            <MDBIcon icon="home" className="mr-3"></MDBIcon>+91-0123456789<br />
+                            <MDBIcon icon="home" className="mr-3"></MDBIcon>+91-836-2258225<br />
 
                             <MDBIcon icon="phone" className="mr-3"></MDBIcon>+91-9876543210<br />
 
