@@ -7,6 +7,7 @@ import About from './Pages/About/About.js';
 import Contact from './Pages/Contact/Contact.js';
 import Expertise from './Pages/About/Expertise';
 import createHashHistory from 'history/createHashHistory';
+import NotFound from './Pages/NotFound';
 
 
 
@@ -24,6 +25,7 @@ class App extends Component {
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/expertise" component={Expertise} />
+            <Route path="*" component={NotFound} />
             {/* <Route path="/hello" component={Hello} />
             <Route path="/hello/goodmorning" render={() => { return <h1>Goodmorning</h1> }} />
             <Route path="/books" component={Books} /> */}
