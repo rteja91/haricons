@@ -35,7 +35,7 @@ const FooterPage = props => {
 
                         <h5 className="title text-dark text-uppercase font-weight-bold mt-3 pt-2">Quick links</h5>
                         <hr className="teal orange-3 mb-4 mt-0 d-inline-block mx-auto" style={{ "width": "60px" }} />
-                        <ul >
+                        <ul style={{ paddingLeft: "0" }} >
                             <li className="list-unstyled">
                                 <a href="/about" className="footer-color text-uppercase font-weight-bold">About us</a>
                             </li>
