@@ -7,7 +7,7 @@
   "static/js/1.673e7678.chunk.js.map": "/static/js/1.673e7678.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/mdb.css": "/static/media/Roboto-Bold.dc81817d.woff",
+  "static/media/mdb.css": "/static/media/Roboto-Bold.e31fcf18.ttf",
   "static/media/logo.png": "/static/media/logo.793533c4.png",
   "static/media/roadconstruction.jpg": "/static/media/roadconstruction.fb8dfe6b.jpg",
   "static/media/excavator.jpg": "/static/media/excavator.3e432b54.jpg",
@@ -21,6 +21,6 @@
   "static/css/main.d5129c2c.chunk.css.map": "/static/css/main.d5129c2c.chunk.css.map",
   "static/css/1.cb3c5b22.chunk.css.map": "/static/css/1.cb3c5b22.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.d2550f240153482e143e75fe2067c74a.js": "/precache-manifest.d2550f240153482e143e75fe2067c74a.js",
+  "precache-manifest.482624be155757922499b2fe101fa48b.js": "/precache-manifest.482624be155757922499b2fe101fa48b.js",
   "service-worker.js": "/service-worker.js"
 }
