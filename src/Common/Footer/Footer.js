@@ -61,7 +61,7 @@ const FooterPage = props => {
                         <div className="footer-color">
                             <MDBIcon icon="home" className="mr-3"></MDBIcon>+91-836-2258225<br />
 
-                            <MDBIcon icon="phone" className="mr-3"></MDBIcon>+91-9876543210<br />
+                            {/* <MDBIcon icon="phone" className="mr-3"></MDBIcon>+91-9876543210<br /> */}
 
                             <MDBIcon icon="envelope" className="mr-3"></MDBIcon>info@haricons.in<br />
                         </div>
